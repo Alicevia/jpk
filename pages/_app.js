@@ -1,7 +1,16 @@
+import 'normalize.css'
 import '../styles/globals.css'
-
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import Meta from '@/Common/Meta'
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  console.log('pageProps', pageProps)
+  return (
+    <>
+      <Meta></Meta>
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 export default MyApp

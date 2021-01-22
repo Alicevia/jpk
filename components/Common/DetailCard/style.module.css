@@ -1,0 +1,37 @@
+.detail {
+  padding: 15px;
+  background-color: #fafafa;
+}
+
+.desc {
+  height: 40px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+}
+
+.teacher {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #999;
+}
+
+.teacher img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.teacher span {
+  display: inline-block;
+  width: 60px;
+  height: 22px;
+  margin-left: auto;
+  background-image: url('/img/ic_detail.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
